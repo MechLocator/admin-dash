@@ -31,6 +31,7 @@ const EditProfile = () => {
           name,
           email,
           phoneNumber: number,
+          desc: userDesc,
           jobRole,
         },
         {
