@@ -36,7 +36,6 @@ const Login = () => {
   const { enqueueSnackbar } = useSnackbar();
 
   const url = "https://api.mechtraktech.com";
-  // const url = "https://api.mechtraktech.com";
 
   const currentDate = dayjs();
 
