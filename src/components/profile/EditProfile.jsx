@@ -16,6 +16,7 @@ const EditProfile = () => {
   const [email, setEmail] = useState(user.email);
   const [number, setNumber] = useState(user.phoneNumber);
   const [jobRole, setJobRole] = useState(user.jobRole);
+  const [userDesc, setUserDesc] = useState(user.desc);
 
   const { enqueueSnackbar } = useSnackbar();
 
@@ -192,7 +193,13 @@ const EditProfile = () => {
             <div className="profileBioContainer">
               <p className="profileBioText">Bio</p>
               <div className="profileBioBody">
-                <textarea cols="30" rows="6" className="profileBio">
+                <textarea
+                  cols="30"
+                  rows="6"
+                  className="profileBio"
+                  value={userDesc}
+                  onChange={e => setUserDesc(e.target.value)}
+                >
                   {user.desc}
                 </textarea>
               </div>
