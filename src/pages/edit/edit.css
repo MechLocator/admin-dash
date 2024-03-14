@@ -1,0 +1,88 @@
+.editAppUserContainer {
+  background-color: #f3f3f3;
+  height: 100vh;
+  width: 100%;
+}
+
+.topContainer {
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+  display: flex;
+  margin-top: 20px;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: inherit;
+}
+
+.leftImageContainer {
+  background-color: #fff;
+  border: 1px solid #f3f3f3;
+  height: fit-content;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.bgImageHolderContainer {
+  background-image: url("data:image/jpeg;base64,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");
+  background-position: center;
+  background-size: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 150px;
+  position: relative;
+}
+
+.ctaBtnsContainer {
+  width: 100%;
+  height: inherit;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+}
+
+.styleImage {
+  object-fit: cover;
+  position: absolute;
+  top: 100px;
+  z-index: 900;
+  left: 25px;
+  width: 90px;
+  height: 90px;
+  border: 4px solid #fff;
+  border-radius: 100%;
+}
+
+.largerTextName {
+  font-size: 2rem;
+  color: black;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.largerTextName:hover {
+  cursor: pointer;
+}
+
+.lightGreyText {
+  color: #9f9e9e;
+  font-size: 1rem;
+  margin-left: 20px;
+}
+
+.rightBioContainer {
+  background-color: #fff;
+  width: 30%;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.iconAndDescContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 12px 8px;
+  gap: 10px;
+}

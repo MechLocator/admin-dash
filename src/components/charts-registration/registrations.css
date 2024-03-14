@@ -1,0 +1,10 @@
+.registrationsChartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 15px 20px;
+  width: 50%;
+  height: 330px;
+}

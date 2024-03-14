@@ -1,0 +1,202 @@
+.searchInput {
+  padding: 8px;
+  border-radius: 6px;
+  border-width: 0;
+  font-size: 14px;
+  background-color: #f3f3f3;
+}
+
+.searchInput:focus {
+  outline: none;
+  /* border-color: gray; */
+}
+
+.userAvatarImage {
+  object-fit: cover;
+  border-radius: 100%;
+  height: 25px;
+  cursor: pointer;
+  width: 25px;
+}
+
+.messageListContainer {
+  box-shadow: 4px 4px 5px 0px rgba(228, 226, 226, 0.75);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(228, 226, 226, 0.75);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(228, 226, 226, 0.75);
+  height: auto;
+  width: auto;
+  position: absolute;
+  background-color: white;
+  padding: 15px 10px;
+  top: 95px;
+  transition-delay: 2s;
+  border: 1px solid #e0e0e0;
+  transition-duration: 2s;
+  right: 90px;
+  z-index: 999;
+}
+
+.toggleIndicator {
+  background-color: red;
+  padding: 3px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 45px;
+  z-index: 600;
+  right: 98px;
+  border-radius: 100%;
+}
+
+.markAllBtn {
+  background-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: blue;
+  font-size: 12px;
+  border-width: 1px;
+  outline: none;
+  color: blue;
+  cursor: pointer;
+}
+
+.notificationsHeader {
+  font-size: 12px;
+  font-weight: light;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.messageContainer {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  cursor: pointer;
+  gap: 10px;
+  width: 100%;
+  padding: 15px 10px;
+}
+
+.messageContainer:hover {
+  background-color: #f3f3f3;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.rightContainer {
+  height: auto;
+  width: 60%;
+  overflow-x: hidden;
+}
+
+.avatarHolder {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10px;
+  /* margin-right: 20px; */
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  margin: 5px auto 10px auto;
+}
+
+.info {
+  font-size: 12px;
+  font-weight: 400;
+  color: #808080;
+}
+
+.timeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* margin-top: -8px; */
+}
+
+.actualTime {
+  font-size: 14px;
+  color: #808080;
+  padding-left: 10px;
+}
+
+.viewMoreTrigger {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.viewMoreTrigger p {
+  color: blue;
+  font-size: 14px;
+  padding: 7px;
+  border-radius: 4px;
+}
+
+.viewMoreTrigger p:hover {
+  background-color: #f3f3f3;
+  margin: 0px;
+}
+
+.userDetailsContainer {
+  box-shadow: 4px 4px 5px 0px rgba(228, 226, 226, 0.75);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(228, 226, 226, 0.75);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(228, 226, 226, 0.75);
+  height: auto;
+  width: 16%;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  padding: 25px 20px 10px 20px;
+  top: 93px;
+  transition-timing-function: ease-in-out;
+  /* transition-delay: 2s; */
+  transition-duration: 2s;
+  right: 8px;
+  z-index: 999;
+}
+
+.profileName {
+  font-size: 16px;
+  font-weight: 600;
+  /* margin-bottom: ; */
+}
+
+.barCompanyName {
+  font-weight: 700;
+  color: #0096ff;
+}
+
+.profileEmail {
+  font-size: 10px;
+  font-weight: 400;
+  color: #808080;
+  margin-top: -5px;
+  margin-bottom: -18px;
+}
+
+.iconTitleContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.iconTitleContainer:hover {
+  background-color: #f3f3f3;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 12px;
+  margin-left: 8px;
+  color: #808080;
+}

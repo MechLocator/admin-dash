@@ -1,0 +1,49 @@
+.parentContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff;
+  width: 70%;
+  height: 100%;
+  border-radius: 8px;
+  padding: 20px 15px;
+}
+
+.topCardsContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  /* height: fit-content; */
+}
+
+.individualCardIconContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #0096ff;
+}
+
+.categCardTallyContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.typeBlurText {
+  color: #808080;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.tallyCardBoldText {
+  color: #000;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 22px;
+}

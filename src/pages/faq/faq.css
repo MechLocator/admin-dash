@@ -1,0 +1,165 @@
+.faqsContainer {
+  width: 100%;
+  margin: 0 auto;
+  /* Change this height later */
+  height: 100%;
+}
+
+.pageTitleText {
+  font-size: 46px;
+  color: #0096ff;
+  margin: 30px 0px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: u;
+}
+
+.triggerBtnContainer {
+  width: 75%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.toggleBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #f3f3f3;
+  border: 1px solid #0096ff;
+  padding: 10px 16px;
+}
+
+.cancelBtn {
+  background-color: #fff;
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 0.75px solid #808080;
+}
+
+.plusIcon {
+  color: #0096ff;
+}
+
+.btnText {
+  color: #0096ff;
+}
+
+.categoryContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 75%;
+  margin: 20px auto;
+}
+
+.categoryText {
+  font-size: larger;
+  font-weight: bolder;
+  color: #808080;
+  margin-left: 10px;
+}
+
+.addFaqContainer {
+  background-color: #fff;
+  box-shadow: 4px 4px 5px 0px rgba(228, 226, 226, 0.75);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(228, 226, 226, 0.75);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(228, 226, 226, 0.75);
+  border-radius: 8px;
+  padding: 18px 16px;
+  position: fixed;
+  width: auto;
+  height: auto;
+  top: 100px;
+  right: 300px;
+  z-index: 1000;
+}
+
+.modalTitleText {
+  font-weight: 400;
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+
+.modalTitleToggleBtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.inputContainer {
+  margin: 15px auto;
+  padding: 4px 6px;
+  width: 80%;
+}
+
+.questionInput {
+  border-radius: 8px;
+  border: 0.85px solid #dcdcdc;
+  outline: 0.85px solid #dcdcdc;
+  border: 0px;
+  width: 100%;
+}
+
+.questionInput:focus {
+  outline: none;
+  border: 0px;
+}
+
+.faqAnswer {
+  border-radius: 8px;
+  border: 0.85px solid #dcdcdc;
+  outline: 0.85px solid #dcdcdc;
+  border: 0px;
+  width: 100%;
+}
+
+.textAreaContainer {
+  margin: 10px auto;
+  width: 80%;
+}
+
+.selectCategContainer {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.selectCategOption {
+  border-radius: 8px;
+  border: 0px;
+  border: 0.85px solid #dcdcdc;
+  outline: 0.85px solid #dcdcdc;
+  width: 100%;
+}
+
+*:focus {
+  outline: none;
+}
+
+.categOption {
+  margin: 20px 10px;
+}
+
+.controlBtnContainer {
+  width: 80%;
+  margin: 20px auto;
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.saveCreationBtn {
+  background-color: #0096ff;
+  padding: 4px 16px;
+  font-weight: 300;
+  border-radius: 6px;
+  text-align: center;
+  color: #fff;
+}

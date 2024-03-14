@@ -1,0 +1,164 @@
+.editUserContainer {
+  height: 100%;
+  width: 98%;
+  margin: 18px auto;
+}
+
+.editProfileContainer {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 12px;
+  position: relative;
+  height: fit-content;
+  margin-bottom: 30px;
+}
+
+.editPageContainer {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  margin: 20px auto;
+  gap: 8px;
+}
+
+.profileBgContainer {
+  background-color: #cce0ef;
+  height: 150px;
+  width: 100%;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  /* background-repeat: no-repeat; */
+  margin-bottom: 20px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.largeProfileText {
+  font-size: 1.4rem;
+  margin-left: 35px;
+  margin-top: 4px;
+  font-weight: 100;
+}
+
+.largeProfileInfoText {
+  font-size: 1.4rem;
+  padding-left: 35px;
+  padding-top: 25px;
+  font-weight: 500;
+}
+
+.inputTextProfile {
+  border: none;
+  height: inherit;
+  width: 96%;
+  background-color: none;
+}
+
+/* .inputTextProfile:focus {
+  outline-width: 0px;
+  outline: none;
+  outline-color: #fff;
+  border: none;
+  text-decoration: underline;
+} */
+
+.saveProfileImageBtn {
+  background-color: #0096ff;
+}
+
+.smallerProfileText {
+  font-size: 0.75rem;
+  margin-left: 35px;
+  font-weight: 300;
+  color: #7e7e7e;
+}
+
+.uploadImageContainer {
+  background-color: #fff;
+  height: 25vh;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 20px 0px;
+  padding-top: 30px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+}
+
+.userEditProfile {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  border-radius: 100%;
+}
+
+.leftEditContainer {
+  width: 70%;
+}
+
+.rightEditContainer {
+  width: 35%;
+  height: auto;
+}
+
+.largeEditText {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+.personalUserInfoContainer {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 12px;
+  position: relative;
+  height: 70vh;
+  padding: 20px 8px;
+  margin-bottom: 30px;
+}
+
+.profileInputIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  height: 35px;
+  padding-left: 12px;
+  background-color: #fff;
+}
+
+.profileBioContainer {
+  width: 100%;
+  height: fit-content;
+  padding: 22px 8.5px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.submitBtnContainer {
+  width: 100%;
+}
+
+.profileBioText {
+  padding: 4px 8px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.profileBioBody {
+  width: 100%;
+}
+
+.profileBio {
+  width: 100%;
+  color: #c5c5c5;
+  border: 1px solid #f3f3f3;
+  background-color: #f3f3f3;
+  border-radius: 6px;
+}

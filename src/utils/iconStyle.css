@@ -1,0 +1,16 @@
+.iconStyle {
+  padding: 6px 8px;
+  border-radius: 6px;
+  color: #0096ff;
+}
+
+.iconStyle:hover {
+  background-color: #0096ff;
+  color: #fff;
+  margin: 0;
+}
+
+.iconStyle:active {
+  background-color: #0096ff;
+  color: #fff;
+}

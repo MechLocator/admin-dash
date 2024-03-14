@@ -1,0 +1,35 @@
+.accordionContainer {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 75%;
+  margin: 40px auto;
+  padding: 25px 20px;
+}
+
+.titleToggleBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  gap: 6px;
+}
+
+.titleText {
+  font-size: small;
+  color: #808080;
+}
+
+.accordionBody {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 20px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.accordionBody:hover {
+  background-color: #f0f5f8;
+}

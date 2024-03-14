@@ -1,0 +1,25 @@
+.chartsContainer {
+  width: auto;
+  margin: 50px auto;
+  /* change this height later */
+  height: 100%;
+}
+
+.topContainer {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 98%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.cardChartsContainer {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 98%;
+  height: 20%;
+  margin: 50px auto;
+  gap: 20px;
+}

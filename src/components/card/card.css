@@ -1,0 +1,46 @@
+.cardContainer {
+  width: 30%;
+  background-color: #fff;
+  padding: 12px;
+  height: auto;
+  border-radius: 8px;
+  display: flex;
+  align-items: start;
+  justify-content: flex-end;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #0096ff;
+}
+
+.tallyContainer {
+  width: 80%;
+}
+
+.textLarge {
+  color: #808080;
+  font-size: medium;
+}
+
+.tallyText {
+  color: #000;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.tallyChangeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.changeSpanIndicator {
+  padding: 4px 10px;
+  border-radius: 4px;
+}

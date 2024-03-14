@@ -1,0 +1,49 @@
+.usersTableContainer {
+  width: 100%;
+  height: 100%;
+  margin: 50px auto;
+}
+
+.actionBtnsContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+.usersTable {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.usersTable thead th {
+  text-transform: capitalize;
+  text-align: start;
+  padding: 0.8rem;
+}
+
+.disabled-select {
+  cursor: pointer;
+  padding: 3px 8px;
+  border: none;
+}
+
+.disabled-select:focus {
+  outline: none;
+}
+
+.pagination-options-container span#disable[disabled] {
+  cursor: not-allowed;
+}
+
+.usersTable tbody tr td {
+  color: #999;
+  padding: 1rem 1.2rem;
+  text-align: left;
+}
+
+.usersTable tbody tr:nth-child(even) {
+  background: #f3f3f3;
+}
