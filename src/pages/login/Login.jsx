@@ -133,7 +133,7 @@ const Login = () => {
           ))}
         </div>
         <p className="containerFooterDesc">
-          Mechanic Locator Technologies Ltd.
+          Mechanictrak Technologies Ltd.
         </p>
         <p className="containerFooterDesc">
           &copy; {currentDate.format("YYYY")}
