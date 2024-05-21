@@ -212,7 +212,7 @@ const Users = () => {
                         "dddd MMM DD, YYYY - HH:mm"
                       )}
                     </td>
-                    {data.isVerified ? (
+                    {data.isVerified && data.accountType === "Garage" ? (
                       <td>
                         <p
                           style={{
@@ -226,7 +226,7 @@ const Users = () => {
                           Verified
                         </p>
                       </td>
-                    ) : (
+                    ) : !data.isVerified && data.accountType === "Garage" ? (
                       <td>
                         <p
                           style={{
@@ -240,7 +240,7 @@ const Users = () => {
                           Not Verified
                         </p>
                       </td>
-                    )}
+                    ) : <td style={{textAlign: "center"}}>-</td>}
                     {data.isSuspended ? (
                       <td>
                         <p

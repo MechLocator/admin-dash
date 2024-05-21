@@ -125,7 +125,7 @@ const EditUser = () => {
                   size="small"
                   style={{ width: "100px" }}
                 />
-              ) : (
+              ) : userData?.accountType === "Garage" ? (
                 <Popconfirm
                   title="User verfication"
                   description="Are you sure to verify this user?"
@@ -154,6 +154,8 @@ const EditUser = () => {
                     {userData.isVerified ? "Verified" : "Verify"}
                   </Button>
                 </Popconfirm>
+              ) : (
+                ""
               )}
               {isLoading ? (
                 <Skeleton.Button
@@ -200,6 +202,7 @@ const EditUser = () => {
                     className="largerTextName"
                     style={{
                       maxWidth: "22.5%",
+                      textTransform: "capitalize",
                     }}
                   >
                     {nameToShow}
@@ -250,7 +253,12 @@ const EditUser = () => {
           <div className="rightBioContainer">
             <div className="iconAndDescContainer">
               <FaUser size={18} color="#c5c5c5" />
-              <p className="slightlyLargeText">{userData.name}</p>
+              <p
+                className="slightlyLargeText"
+                style={{ textTransform: "capitalize" }}
+              >
+                {userData.name}
+              </p>
             </div>
             <div className="iconAndDescContainer">
               {userData.accountType === "Garage" ? (
@@ -265,7 +273,12 @@ const EditUser = () => {
                   style={{ width: "100px", margin: "6px" }}
                 />
               ) : (
-                <p className="slightlyLargeText">{userData.accountType}</p>
+                <p
+                  className="slightlyLargeText"
+                  style={{ textTransform: "capitalize" }}
+                >
+                  {userData.accountType}
+                </p>
               )}
             </div>
             <div className="iconAndDescContainer">

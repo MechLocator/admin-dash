@@ -444,7 +444,7 @@ const Settings = () => {
               </div>
               <div className="labelSenderEmailContainer">
                 <p className="smallText">To:</p>
-                <p className="senderEmail">{email}</p>
+                <p className="senderEmail">{email ? email : "New user's email here..."}</p>
               </div>
               <div className="emailBodyContainer">
                 <p className="emailBody">
