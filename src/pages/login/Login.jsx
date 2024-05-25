@@ -133,7 +133,7 @@ const Login = () => {
           ))}
         </div>
         <p className="containerFooterDesc">
-          Mechanictrak Technologies Ltd.
+          Mechtrak Technologies Ltd.
         </p>
         <p className="containerFooterDesc">
           &copy; {currentDate.format("YYYY")}
@@ -183,7 +183,7 @@ const Login = () => {
                 className="textInput"
                 type="email"
                 value={email}
-                onChange={e => setEmail(e.target.value)}
+                onChange={e => setEmail(e.target.value)} 
                 style={{ borderRadius: "10px" }}
                 placeholder={`${authType.type} email`}
               />
